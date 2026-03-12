@@ -198,7 +198,7 @@ const StorySection = () => {
                   Mi prendo il tempo per ascoltare attentamente e capire i bisogni, i desideri e le preoccupazioni dei miei clienti. La mia genuina attenzione per i loro interessi assicura che il lavoro sia fatto bene.
                 </p>
                 <p>
-                  Con sede a Montegranaro, aiuto gli amanti del buon bere e mangiare nella scelta migliore per le proprie esigenze.
+                  Con sede a Montegranaro, aiuto gli amanti del buon bere e mangiare nella scelta migliore per le proprie esigenze personali...
                 </p>
               </div>
 
@@ -238,24 +238,6 @@ const StorySection = () => {
                   referrerPolicy="no-referrer"
                 />
               </div>
-              
-              {/* Overlapping Image */}
-              <motion.div 
-                initial={{ opacity: 0, x: 50, y: 50 }}
-                whileInView={{ opacity: 1, x: 0, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: 0.4, duration: 0.8 }}
-                className="absolute -bottom-12 -left-12 w-1/2 hidden md:block"
-              >
-                <div className="aspect-square rounded-2xl overflow-hidden shadow-2xl border-8 border-tropical-dark">
-                  <img 
-                    src="https://images.unsplash.com/photo-1544145945-f904253d0c71?q=80&w=1974&auto=format&fit=crop" 
-                    alt="Process" 
-                    className="w-full h-full object-cover"
-                    referrerPolicy="no-referrer"
-                  />
-                </div>
-              </motion.div>
             </motion.div>
 
             {/* Decorative Elements */}
@@ -279,7 +261,7 @@ const TheCraft = () => {
     {
       time: "18:00",
       title: "L'Aperitivo",
-      desc: "Quando il sole inizia a calare, il nostro bancone si anima con i colori e i profumi dell'aperitivo. Prepariamo drink freschi, innovativi e dissetanti, perfetti per brindare alla fine della giornata. A fare da contrappunto ai nostri cocktail, trovi una selezione di stuzzicherie e stuzzichini del posto: Prodotti nel posto e serviti direttamente al bancone garantendo qualità e freschezza.",
+      desc: "Quando il sole inizia a calare, il nostro bancone si anima con i colori e i profumi dell'aperitivo , prepariamo drink freschi, innovativi e dissetanti perfetti per brindare alla fine della giornata. A fare da contrappunto ai nostri cocktail, trovi una selezione di stuzzichini e prodotti del posto scelti accuratammente in ogni dettaglio: Serviti direttamente al bancone garantendo qualità e freschezza ad ogni ora della giornata .",
       image: "https://images.pexels.com/photos/1475/food-vegetables-italian-restaurant.jpg"
     },
     {
@@ -386,7 +368,7 @@ const AboutMe = () => {
             "Mi prendo il tempo per ascoltare attentamente e capire i bisogni, i desideri e le preoccupazioni dei miei clienti. La mia genuina attenzione per i loro interessi assicura che il lavoro sia fatto bene."
           </p>
           <p className="text-gray-600 text-sm md:text-base mb-8 md:mb-10 leading-relaxed font-delius">
-            Con sede a Montegranaro, aiuto gli amanti del buon bere e mangiare nella scelta migliore per le proprie esigenze.
+            Con sede a Montegranaro, aiuto gli amanti del buon bere e mangiare nella scelta migliore per le proprie esigenze personali...
           </p>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-8">
