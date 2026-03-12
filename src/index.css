@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Gelasio:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Delius&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Gelasio", serif;
+  --font-display: "Gelasio", serif;
+  --font-heading: "Gelasio", serif;
+  --font-delius: "Gelasio", serif;
+  
+  --color-tropical-gold: #D4AF37;
+  --color-tropical-dark: #1A1A1A;
+  --color-tropical-cream: #FDFBF7;
+  --color-tropical-orange: #FF6321;
+}
+
+@layer base {
+  body {
+    @apply bg-tropical-cream text-tropical-dark font-sans;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading font-bold;
+  }
+}
